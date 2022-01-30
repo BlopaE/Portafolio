@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo E Portafolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnj.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2 class="logo__text">blopa.e()</h2>
+        </div>
+        <button class="nav--toggle" aria-label="toggle navigation">
+            <span class="hamburguer"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Mis servicios</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">Sobre mi</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Mis proyectos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Introduccion-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Hola, soy<strong>Pablo Ramírez</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">ROAD TO FULL STACK DEVELOPER</p>
+        <img src="img/pablo.png" alt="imagen de Pablo E" class="intro__img">
+    </section>
+
+    <!-- Servicios -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">¿Qué es lo que hago?</h2>
+        <div class="services">
+            <div class="service">
+                <h3>JAVA</h3>
+                <p>Alto conocimiento es tecnologia Java 8 y superiores. POO, JAVA Swing, Algoritmos, estructuras de datos y código limpio.</p>
+            </div>
+
+            <div class="service">
+                <h3>Spring Framework</h3>
+                <p>Implementacion de Framework con JAVA EE, inyeccion de dependencias, validaciones, patron MVC, conexion a BBDD con Hibernate.</p>
+            </div>
+
+            <div class="service">
+                <h3>Desarrollo Web</h3>
+                <p>Conocimientos en HTML, CSS, JavaScript, además de Git y Github para controlar versionamiento de archivos.</p>
+            </div>
+        </div>
+
+        <a href="#work" class="btn">Mis Proyectos</a>
+    </section>
+
+    <!-- Sobre mi -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">¿Quién Soy?</h2>
+        <p class="section__subtitle section__subtitle--about">ESTUDIANTE DE ING. EN SISTEMAS COMPUTACIONALES</p>
+        <div class="about-me__body">
+            <p>Estudiante de Ingeniera en Sistemas Computacionales en el Instituto Tecnológico de Oaxaca. Cuento con 2 años en el mundo de la programación.</p>
+            <p>Me considero un apasionado por el aprendizaje, ya que estoy constantemente actualizandome en temas de programación, diseño y edición. Me entusiasma todo lo que se puede aprender de la tecnologia</p>
+        </div>
+
+        <img src="img/pablo2.jpg" class="about-me__img">
+    </section>
+
+    <!--My work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">Mis Proyectos</h2>
+        <p class="section__subtitle section__subtitle--work">Una selección de mis mejores proyectos</p>
+
+        <div class="portfolio">
+            <!--Portafolio item 1-->
+            <a href="projects/procesador-de-texto.html" class="portfolio__item">
+                <img src="img/programmer.jpg" class="portfolio__img">
+            </a>
+            <!--Portafolio item 2-->
+            <a href="projects/Segurabits.html" class="portfolio__item">
+                <img src="img/study.jpg" class="portfolio__img">
+            </a>
+            <!--Portafolio item 3-->
+            <a href="projects/reviews.html" class="portfolio__item">
+                <img src="img/books.jpg" class="portfolio__img">
+            </a>
+            <!--Portafolio item 4-->
+            <a href="projects/Pomodoro.html" class="portfolio__item">
+                <img src="img/hora pixel.jpg" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:pablo.blopa22@gmail.com" class="footer__link">pablo.blopa22@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.instagram.com/blopa.e/" target="_blank" class="social-list__link">
+                    <img src="icons/instagram.svg">
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.tiktok.com/@blopa.e"  target="_blank"class="social-list__link">
+                    <img src="icons/tiktok.svg">
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.youtube.com/channel/UC8kjkNCkdRxhf-G3K-gQysg/featured" target="_blank" class="social-list__link">
+                    <img src="icons/youtube.svg">
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
